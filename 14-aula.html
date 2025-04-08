@@ -24,12 +24,16 @@
             }
 
             .padding{
+                    padding: 0 50px !important;
+                }
+
+            @media only screen and (max-width: 992px){
+                .padding{
                     padding: 0 10px !important;
                 }
 
-            @media only screen and (min-width: 992px){
-                .padding{
-                    padding: 0 50px !important;
+                .border-start{
+                    border: 0 !important;
                 }
         }
         </style>
@@ -57,11 +61,11 @@
                   <!-- links do menu central (geral, metas, dicas) -->
                   <div class="navbar-nav d-flex">
                     <!-- cada link tem uma borda na esquerda, padding e estilos de fonte -->
-                    <a class="nav-link active border-ld-start fs-3 fw-bolder border-dark padding" aria-current="page" href="#"
+                    <a class="nav-link active border-start fs-3 fw-bolder border-dark padding" aria-current="page" href="#"
                       style="color: #172A3A">Geral</a>
-                    <a class="nav-link border-ld-start fs-3 fw-bolder border-dark padding" href="#"
+                    <a class="nav-link border-start fs-3 fw-bolder border-dark padding" href="#"
                       style="color: #172A3A">Metas</a>
-                    <a class="nav-link border-ld-start fs-3 fw-bolder border-dark padding" href="#"
+                    <a class="nav-link border-start fs-3 fw-bolder border-dark padding" href="#"
                       style="color: #172A3A">Dicas</a>
                   </div>
           
